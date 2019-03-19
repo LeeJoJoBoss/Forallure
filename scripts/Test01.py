@@ -35,10 +35,11 @@ class Test01():
         allure.attach('最美的不是下雨天，是猪与你一起躲过的屋檐','')
         allure.attach('备注', '原因')
         print('这是测试用例4')
+        with open("./image/faile.png", "rb")as f:
+            allure.attach("失败原因：", f.read(), allure.attach_type.PNG)
 
     #失败执行
     @allure.severity('blocker')
     def test05(self):
         allure.attach('谁得只得那双手，靠拥抱亦难任你拥有','')
         assert 2==3
-    #稻香
