@@ -1,0 +1,5 @@
+{
+  "scripts/Test01.py::Test01::()::test05": true,
+  "scripts/Test01.py::test001": true,
+  "scripts/allure.py": true
+}
