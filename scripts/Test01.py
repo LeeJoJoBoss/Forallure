@@ -41,3 +41,4 @@ class Test01():
     def test05(self):
         allure.attach('谁得只得那双手，靠拥抱亦难任你拥有','')
         assert 2==3
+    #稻香
