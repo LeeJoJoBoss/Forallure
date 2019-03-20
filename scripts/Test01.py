@@ -38,8 +38,8 @@ class Test01():
         with open("./image/faile.png", "rb")as f:
             allure.attach("失败原因：", f.read(), allure.attach_type.PNG)
 
-    #失败执行
-    @allure.severity('blocker')
-    def test05(self):
-        allure.attach('谁得只得那双手，靠拥抱亦难任你拥有','')
-        assert 2==3
+    # #失败执行
+    # @allure.severity('blocker')
+    # def test05(self):
+    #     allure.attach('谁得只得那双手，靠拥抱亦难任你拥有','')
+    #     assert 2==3

@@ -1,86 +1,86 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552964986765" stop="1552964986895">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552997257248" stop="1552997257637">
   <name>Test01</name>
   <labels/>
   <test-cases>
-    <test-case start="1552964986765" status="passed" stop="1552964986775">
+    <test-case start="1552997257248" status="passed" stop="1552997257273">
       <name>Test01.test01</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="15696-MainThread"/>
+        <label name="thread" value="3108-MainThread"/>
         <label name="host" value="LeeZW"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1552964986775" status="passed" stop="1552964986775">
+        <step start="1552997257267" status="passed" stop="1552997257269">
           <name>这是操作步骤1</name>
           <title>这是操作步骤1</title>
           <attachments>
-            <attachment source="83fd65fc-aec2-437c-afa6-031ded3390ea-attachment.txt" title="最长的电影" type="text/plain"/>
-            <attachment source="bda0a803-1c1c-4c8a-b3f3-3381f89e7405-attachment.txt" title="备注" type="text/plain"/>
+            <attachment source="4c96d39c-19d1-4bad-9dc8-78d228cc6943-attachment.txt" title="最长的电影" type="text/plain"/>
+            <attachment source="2f73ba60-133f-4b9f-9da4-95edd4278130-attachment.txt" title="备注" type="text/plain"/>
           </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1552964986775" status="passed" stop="1552964986785">
+    <test-case start="1552997257286" status="passed" stop="1552997257295">
       <name>Test01.test02</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="15696-MainThread"/>
+        <label name="thread" value="3108-MainThread"/>
         <label name="host" value="LeeZW"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1552964986785" status="passed" stop="1552964986785">
+        <step start="1552997257293" status="passed" stop="1552997257294">
           <name>这是操作步骤2</name>
           <title>这是操作步骤2</title>
           <attachments>
-            <attachment source="75c803d4-f44e-41fb-a0d9-cc381a099b99-attachment.txt" title="烟花易冷" type="text/plain"/>
-            <attachment source="e381b408-3db6-474a-ba02-d9ec3162b3a6-attachment.txt" title="备注" type="text/plain"/>
+            <attachment source="c2af4ec4-e2da-4d51-aafb-7d555955a741-attachment.txt" title="烟花易冷" type="text/plain"/>
+            <attachment source="eb35373d-da7a-4542-874a-715af24613f1-attachment.txt" title="备注" type="text/plain"/>
           </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1552964986785" status="passed" stop="1552964986785">
+    <test-case start="1552997257311" status="passed" stop="1552997257321">
       <name>Test01.test03</name>
       <attachments>
-        <attachment source="584437dd-2dd7-4551-847f-d9d2b21cfc8f-attachment.txt" title="晴天" type="text/plain"/>
-        <attachment source="67d6738f-ed82-40d4-857e-8ca4ee8aa2d4-attachment.txt" title="备注" type="text/plain"/>
+        <attachment source="98ede081-fda2-49b0-8109-2d24aee0a58c-attachment.txt" title="晴天" type="text/plain"/>
+        <attachment source="53a616da-d235-4146-aeec-547640fdcdb2-attachment.txt" title="备注" type="text/plain"/>
       </attachments>
       <labels>
         <label name="severity" value="critical"/>
-        <label name="thread" value="15696-MainThread"/>
+        <label name="thread" value="3108-MainThread"/>
         <label name="host" value="LeeZW"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1552964986795" status="passed" stop="1552964986795">
+    <test-case start="1552997257332" status="passed" stop="1552997257342">
       <name>Test01.test04</name>
       <attachments>
-        <attachment source="614a7c0b-3c7c-4457-8853-77778eae0ee2-attachment.txt" title="最美的不是下雨天，是猪与你一起躲过的屋檐" type="text/plain"/>
-        <attachment source="4186a1fd-5235-4f5f-badf-4012625479f2-attachment.txt" title="备注" type="text/plain"/>
+        <attachment source="1cc52eef-1038-437b-8390-c74c44132f7d-attachment.txt" title="最美的不是下雨天，是猪与你一起躲过的屋檐" type="text/plain"/>
+        <attachment source="5d23bd5b-2a3b-44e4-b51e-2c089cbf44a5-attachment.txt" title="备注" type="text/plain"/>
       </attachments>
       <labels>
         <label name="severity" value="blocker"/>
-        <label name="thread" value="15696-MainThread"/>
+        <label name="thread" value="3108-MainThread"/>
         <label name="host" value="LeeZW"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1552964986805" status="failed" stop="1552964986895">
+    <test-case start="1552997257353" status="failed" stop="1552997257637">
       <name>Test01.test05</name>
       <failure>
         <message>AssertionError: assert 2 == 3</message>
-        <stack-trace>self = &lt;Test01.Test01 object at 0x036044B0&gt;
+        <stack-trace>self = &lt;Test01.Test01 object at 0x036636B0&gt;
 
     @allure.severity('blocker')
     def test05(self):
@@ -91,11 +91,11 @@ E       assert 2 == 3
 scripts\Test01.py:43: AssertionError</stack-trace>
       </failure>
       <attachments>
-        <attachment source="8934c232-c6b8-4056-9644-868237edefd9-attachment.txt" title="谁得只得那双手，靠拥抱亦难任你拥有" type="text/plain"/>
+        <attachment source="b7d62843-2168-49d0-9366-e0e93ff7fdac-attachment.txt" title="谁得只得那双手，靠拥抱亦难任你拥有" type="text/plain"/>
       </attachments>
       <labels>
         <label name="severity" value="blocker"/>
-        <label name="thread" value="15696-MainThread"/>
+        <label name="thread" value="3108-MainThread"/>
         <label name="host" value="LeeZW"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
